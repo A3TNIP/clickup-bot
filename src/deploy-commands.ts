@@ -6,11 +6,9 @@ const path = require('node:path');
 
 const token: string = env.parsed!.DISCORD_TOKEN;
 const clientId: string = env.parsed!.CLIENT_ID;
-const guildId: string = env.parsed!.GUILD_ID;
 
 console.log(`Token: ${token}`);
 console.log(`Client ID: ${clientId}`);
-console.log(`Guild ID: ${guildId}`);
 const commands = [];
 // Grab all the command files from the commands directory you created earlier
 const commandsPath = path.join(__dirname, 'commands');
