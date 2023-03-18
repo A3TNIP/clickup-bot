@@ -5,9 +5,17 @@
     ],
     "alwaysStrict": true,
     "strictNullChecks": true,
-    "noImplicitAny": true
+    "noImplicitAny": true,
+    "paths": {
+      "src/*": [
+        "./src/*"
+      ]
+    }
   },
   "files": [
     "src/index.ts"
+  ],
+  "include": [
+    "src/**/*.ts"
   ]
 }
