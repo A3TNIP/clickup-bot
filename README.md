@@ -1,4 +1,4 @@
-# discord-sound
+# discord-clickup
 #Usage:
 1.  Create a .env file with the following keys:
   DISCORD_TOKEN (API Token from discord)
